@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Find partner",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiates the matching process based on language and non-blocked users"
+            }
+          }
+        ],
+        "send": {
+          "callback": "match:find"
+        }
+      }
+    ]
+  }
+]
